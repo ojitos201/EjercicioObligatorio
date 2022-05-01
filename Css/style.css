@@ -1,0 +1,129 @@
+
+
+.navbar-nav{color: gray;
+text-align: center;}
+
+.ul 
+{
+align-items: center;
+
+}
+
+
+h6{color:rgb(7, 14, 7);
+    font-size: 14pt;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration:unset;
+    text-align:end;}
+
+    h2{color:rgb(9, 15, 9);
+        font-size: 24pt;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-decoration:unset;
+        text-align:end;}
+     
+        body
+        {
+        margin: 10px;
+        padding: 5px;
+        }
+
+        .derecha
+        {
+        background-color: darkslategrey;
+        width: 50%;
+        height: 100vh;
+        color: ghostwhite;
+        padding: 1%;
+        }
+
+        .derecha1
+        {
+        background-color: darkslategrey;   
+        width:20%;
+        height: 10vh;
+        color: ghostwhite;
+        padding: 1%;
+        }
+
+        .izquierda
+        {
+        background-image: url("https://i.picsum.photos/id/1015/6000/4000.jpg?hmac=aHjb0fRa1t14DTIEBcoC12c5rAXOSwnVlaA5ujxPQ0I");
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 50%;
+        height: 100vh;
+        }
+
+        #Pantalla_dividida
+        {
+        display: flex;   
+        }
+
+        h1
+        {font-size: 150%;
+         width: 50%;
+         margin: auto;
+         margin-top: 5%;
+
+        }
+
+        .p
+        {
+      
+        margin-top: 20%;
+               
+
+        }
+
+        .button
+        {
+        background-color: rgb(0, 255, 136);
+        margin: 20%;
+        padding: 20%;
+      
+        }
+        /*......Pie de pagina*/
+        .pie-pagina{
+           width: 100%;
+           background-color: rgb(77, 74, 90);
+                 
+         }
+            .pie-pagina .grupo-1{
+            width: 10%;
+            max-width: 1500px;
+            margin: auto;
+            display:grid;
+            grid-template-columns: repeat(7, 1fr);
+            grid-gap: 30px;
+            padding: 15px 15px;
+           
+        }
+        .pie-pagina .grupo-1 .box{
+            width: 100%;
+            height: 100%;
+            display:flex;
+            justify-content: center;
+            align-items: center;
+           
+        }
+        .pie-pagina .grupo-1 .box h6{
+           color: white;
+           margin-bottom: 25px;
+           font-size: 14px;
+           align-items: stretch;
+          } 
+        .pie-pagina .grupo-1 .box p{
+           color: white;
+           margin-bottom: 20px;
+           display: inline block;
+           width: 45px;
+           height: 45px;
+           line-height: 45px;
+           margin-right: 10px;
+       
+                
+         } 
+         
+
+         
